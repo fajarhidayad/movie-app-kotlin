@@ -16,7 +16,7 @@ import id.my.suryadev.movieapp.screens.SearchScreen
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Preview
 @Composable
-fun App(modifier: Modifier = Modifier) {
+fun App() {
     val selectedRoute = remember { mutableStateOf("home") }
     Scaffold(
         bottomBar = {
